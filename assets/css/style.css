@@ -35,18 +35,7 @@ body{
     opacity: 0.7;
 }
 
-@media screen and (max-width: 768px){
-    .hero{
-        grid-template-columns: 1fr;
-    }
 
-    .hero .content-box{
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%,-50%);
-    }
-}
 
 /* Section Offer */
 .offer-left{
@@ -69,30 +58,7 @@ body{
     background-position: center;
 }
 
-@media screen and (max-width: 992px) and ( min-width:769px ){
-    .box{
-        width: 80%;
-    }
-    .offer-left .picture img{
-        top: 50%;
-        left: 50%;
-        height: 70%;
-        width: 70%;
-        transform: translate(-50%,-50%);
-    }
-}
 
-@media screen and (max-width: 768px){
-    .box{
-        width: 100%;
-    }
-    .offer-left .picture img{
-        top: 50%;
-        left: 50%;
-        width: 75%;
-        transform: translate(-50%,-50%);
-    }
-}
 
 /* Section Sevice */
 #service{
@@ -107,4 +73,50 @@ body{
     color: white;
     font-size: 24px;
     text-align: left;
+}
+
+/* Section Project */
+.hr{
+    width: 14%;
+    height:3px;
+    background-color:var(--primary-color);
+    border-radius: 2px;
+}
+
+.project img{
+    width: 98%;
+    border-radius: 10px;
+}
+
+.col-satu {
+    position: relative;
+}
+
+
+.box-project{
+    position: absolute;
+    background-color: #fffffc;
+    /* background-color: violet; */
+    padding: 20px;
+    /* width: 49%; */
+    width: 54%;
+    top: 90%;
+    left: 49%;
+    height: 20%;
+    transform: translate(-50%,-50%);
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+.box-project h4{
+    color: var(--primary-color);
+}
+
+.box-project i:nth-child(5){
+    opacity: 0.7;
+}
+
+.box-project i {
+    font-size: 8px;
+    color: var(--orange);
 }

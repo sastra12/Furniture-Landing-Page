@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Icofont -->
-    <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
-
     <!-- Font Awesome -->
     <link href="assets/icon/fontawesome/css/all.css" rel="stylesheet">
     <!--load all styles -->
@@ -19,13 +16,14 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Document</title>
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-md-top">
         <div class="container">
             <h2><a class="navbar-brand" href="#" style="color: #408A8A;">Furniture.id</a></h2>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -72,7 +70,7 @@
     <section class="offer mt-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-5  mb-3 offer-left">
+                <div class="col-md-6  mb-3 offer-left">
                     <div class="box">
 
                     </div>
@@ -80,9 +78,19 @@
                         <img src="assets/images/offer-1.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <h3 style="color: var(--primary-color) ;">Exclusive Offer</h3>
-                    <h2>We Provide The Best Service For You</h2>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3 style="color: var(--primary-color) ;">Exclusive Offer</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-warning btn-sm rounded-circle" style="color: white;"><i
+                                    class="fas fa-arrow-circle-left"></i></button>
+                            <button type="button" class="btn btn-warning btn-sm rounded-circle" style="color: white;"><i
+                                    class="fas fa-arrow-circle-right"></i></button>
+                        </div>
+                    </div>
+                    <h2 style="color: #000; opacity: 70%;">We Provide The Best Service For You</h2>
                     <p style="color: var(--text-color); opacity: 90%; text-align: justify;">Lorem Ipsum is simply dummy
                         text of the printing
                         and
@@ -99,7 +107,7 @@
     <!-- End Section Offer -->
 
     <!-- Service -->
-    <section id="service" class="mt-5 text-center">
+    <section id="service" class="mt-5 pt-5 pb-5 text-center">
         <div class="container">
             <div class="row mb-3">
                 <div class="col">
@@ -110,7 +118,8 @@
                 <div class="col-md-4">
                     <div class="card-service">
                         <div class="card-body text-start">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <i class="fas fa-award"></i>
+                            <h5 class="card-title">Best Quality</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to
                                 additional
                                 content.</p>
@@ -121,7 +130,7 @@
                     <div class="card-service">
                         <div class="card-body text-start">
                             <i class="fas fa-dollar-sign mb-2"></i>
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Affordable Prices</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to
                                 additional
                                 content.</p>
@@ -131,7 +140,8 @@
                 <div class="col-md-4">
                     <div class="card-service">
                         <div class="card-body text-start">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <i class="far fa-check-circle"></i>
+                            <h5 class="card-title">Product Warranty</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to
                                 additional
                                 content.</p>
@@ -141,7 +151,8 @@
                 <div class="col-md-4">
                     <div class="card-service">
                         <div class="card-body text-start">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <i class="fas fa-bolt"></i>
+                            <h5 class="card-title">Fast Delivery</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to
                                 additional
                                 content.</p>
@@ -152,7 +163,7 @@
                     <div class="card-service">
                         <div class="card-body text-start">
                             <i class="fas fa-dice-d6"></i>
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Free Delivery</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to
                                 additional
                                 content.</p>
@@ -163,7 +174,7 @@
                     <div class="card-service">
                         <div class="card-body text-start">
                             <i class="far fa-clock"></i>
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">24 hours service</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to
                                 additional
                                 content.</p>
@@ -174,6 +185,89 @@
         </div>
     </section>
     <!-- End Service -->
+
+
+    <!-- Project -->
+    <section id="project" class="mt-5">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h3 style="color: var(--primary-color);">Design Project</h3>
+                    <div class="hr"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10">
+                    <h2 style="color: #000; opacity: 70%;">Our Popular Product</h2>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-warning btn-sm rounded-circle" style="color: white;"><i
+                            class="fas fa-arrow-circle-left"></i></button>
+                    <button type="button" class="btn btn-warning btn-sm rounded-circle" style="color: white;"><i
+                            class="fas fa-arrow-circle-right"></i></button>
+                </div>
+            </div>
+            <div class="row project">
+                <div class="col-md-4 col-satu mb-3">
+                    <img src="assets/images/project 1 1.jpg" alt="">
+                    <div class="box-project">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <h5 class="title-heading">Study Room</h5>
+                            </div>
+                            <div class="col-lg-3 d-flex p-2 align-items-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p style="color: #000; margin-bottom: 0;">Minimalist Design</p>
+                        <h4>$360</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-satu mb-3">
+                    <img src="assets/images/project 2.jpg" alt="">
+                    <div class="box-project">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <h5 class="title-heading">The Lounge</h5>
+                            </div>
+                            <div class="col-lg-3 d-flex p-2 align-items-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p style="color: #000; margin-bottom: 0;">Minimalist Design</p>
+                        <h4>$360</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-satu mb-3">
+                    <img src="assets/images/project 3.jpg" alt="">
+                    <div class="box-project">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <h5 class="title-heading">Sitting Room</h5>
+                            </div>
+                            <div class="col-lg-3 d-flex p-2 align-items-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p style="color: #000; margin-bottom: 0;">Minimalist Design</p>
+                        <h4>$360</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Js Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

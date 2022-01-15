@@ -1,0 +1,63 @@
+/* Hero Section */
+@media screen and (max-width: 768px){
+    .hero{
+        grid-template-columns: 1fr;
+    }
+
+    .hero .content-box{
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+
+/* Section Offer */
+@media screen and (max-width: 992px) and ( min-width:769px ){
+    .box{
+        width: 80%;
+    }
+    .offer-left .picture img{
+        top: 50%;
+        left: 50%;
+        height: 70%;
+        width: 70%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .box{
+        width: 100%;
+    }
+    .offer-left .picture img{
+        top: 50%;
+        left: 50%;
+        width: 75%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+
+/* Section Project */
+@media screen and (max-width :1350px) and (min-width: 993px){
+    
+    .box-project{
+        top: 80%;
+        left: 49%;
+        height: 28%;
+        width: 70%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:769px) {
+    .box-project{
+        top: 70%;
+        left: 49%;
+        height: 45%;
+        width: 70%;
+        transform: translate(-50%,-50%);
+    }
+}
