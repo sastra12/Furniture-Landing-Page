@@ -6,8 +6,12 @@
 }
 
 
-body{
-    min-height: 3000px;
+h3{
+    color: var(--primary-color);
+}
+
+span{
+    color: white;
 }
 /* Hero Section */
 .hero{
@@ -120,3 +124,73 @@ body{
     font-size: 8px;
     color: var(--orange);
 }
+
+
+/* Section Testimonials */
+.hr-testimonials{
+    width: 12%;
+    height:3px;
+    background-color:var(--primary-color);
+    border-radius: 2px;
+    
+}
+
+.box-testi{
+    background-color: var(--primary-color);
+}
+
+.box-testi2{
+    background-color: white;
+}
+
+
+.box-testi img{
+    width: 8%;
+    height: 8%;
+}
+
+
+/* Subscribe */
+.custom-search {
+    position: relative;
+    width: 100%;
+  }
+.custom-search-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgb(206, 206, 206);
+    outline: none;
+  }
+.custom-search-botton {
+    position: absolute;
+    right: 3px; 
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: var(--primary-color);
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+    z-index: 2;
+  }
+
+/* Footer */
+footer{
+      margin-top: 100px;
+      background-color: var(--primary-color);
+  }
+footer h3 {
+      color: white;
+  }
+
+footer .social-icon i {
+      font-size: 24px;
+      margin-right: 28px;
+      color: white;
+  }

@@ -61,3 +61,14 @@
         transform: translate(-50%,-50%);
     }
 }
+
+
+/* Footer */
+/* @media screen and(max-width:768px) {
+    footer .center{
+        text-align: left;
+    }
+    footer .right{
+        text-align: left;
+    }
+} */
