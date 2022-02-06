@@ -82,9 +82,10 @@
 
 @media screen and (max-width:599px) and (min-width:455px){
     .box-project{
-        top: 74%;
+        top: 86%;
         left: 50%;
-        height: 46%;
+        height: 24%;
+        background-color: aqua;
         width: 90%;
         transform: translate(-50%,-50%);
     }
